@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "greet",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newGreet",
+						"type": "string"
+					}
+				],
+				"name": "setGreet",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lr3.2.sol": "HelloWorld"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lr3.2.sol": {
+			"keccak256": "0x9c986013271f558477e7f54a930c82c009d84c9aaadb85e5b6fa287362731327",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://75de33bcaac07c54ae4a1c3a2a323ea9b3544cbab5e61ad34ab3e7bfb92ed7cf",
+				"dweb:/ipfs/QmYWvuw5VS99MgCp2bhBeiraSexBiJ3PTfuY4eKNSwq3k2"
+			]
+		}
+	},
+	"version": 1
+}
